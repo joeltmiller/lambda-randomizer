@@ -1,29 +1,28 @@
 var classArray = [
-				"Brooks",
-				"Altamir",
-				"Amber",
-				"Anthony",
-				"Zach",
-				"Charlie",
-				"Jeremy",
-				"Chris",
-				"Eric",
-				"Liz",
-				"Joseph",
-				"Kenzie",
-				"Matthew",
-				"Nathan",
-				"Paul",
-				"Robby",
-				"Mark",
-				"Samantha",
-				"Scott",
-				"Natalie"
-				];
+	'Amy',
+	'Cari',
+	'Chris T.',
+	'Chris R.',
+	'Courtney',
+	'Erika',
+	'Jennifer',
+	'Jessica',
+	'Kyle',
+	'Libby',
+	'Lisa',
+	'Max',
+	'Oliver',
+	'Peter',
+	'Russell',
+	'Sasha',
+	'Suzanna',
+	'Taylor',
+	'Travis',
+];
 
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex ;
-  
+
   // While there remain elements to shuffle...
   while (0 !== currentIndex) {
 
@@ -123,7 +122,7 @@ $(document).ready(function() {
 		selectedNumber = 11;
 		$(this).addClass('selected');
 	});
-	
+
 	$('#randomButton').on('click', function(){
 		if(!selectedNumber){
 			alert("You need to select a group size!");
